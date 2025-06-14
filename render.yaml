@@ -2,6 +2,6 @@ services:
 - type: web
   name: Russ
   env: python
-  buildcommand: " pip install -r requirements.txt"
-  startcommand: "python main.py"
+  buildcommand: pip install -r requirements.txt
+  startcommand: python main.py
   plan: free
